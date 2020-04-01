@@ -28,11 +28,15 @@ namespace LojaInMemoryDatabase.Test
         [Fact]
         public void Devera_Add_Novo_Produto()
         {
-            var fakeProduto = _contextoBase.GetDadosFake<Produto>().Find(x => x.Id == 3);
+            var baseContext = new CotextoBase("AddProd");
+            var context = new LojaContexto(baseContext.Options);
+
+            var fakeProduto = baseContext.GetDadosFake<Produto>().Find(x => x.Id == 3);
             fakeProduto.Id = 0;
 
             //metodo de teste
-            var atual = _produtoService.Salvar(fakeProduto);
+            var proservices = new ProdutoService(context);
+            var atual = proservices.Salvar(fakeProduto);
 
             //Assert
             Assert.NotEqual(0, fakeProduto.Id);

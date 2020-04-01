@@ -53,12 +53,14 @@ namespace LojaDadosFake.Test
                                             .ToList();
 
             fakeCliente.FirstOrDefault().Id = 0;
+            fakeCliente.FirstOrDefault().EnderecoId = 7;
 
             //metodo de teste
             var atual = _clienteService.Salvar(fakeCliente.FirstOrDefault());
 
             //Assert
             Assert.NotEqual(0, fakeCliente.FirstOrDefault().Id);
+            
         }
 
         [Fact]

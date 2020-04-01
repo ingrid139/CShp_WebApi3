@@ -31,8 +31,10 @@ namespace LojaInMemoryDatabase.Test
         [Fact]
         public void Devera_Add_Novo_Cliente()
         {
+            var baseContext = new CotextoBase("AddCliente");
+            var context = new LojaContexto(baseContext.Options);
             // erro endereco Unique
-            var fakeCliente = _contextoBase.GetDadosFake<Endereco>()
+            var fakeCliente = baseContext.GetDadosFake<Endereco>()
                                             .Where(x => x.Id == 1)
                                             .Join(_contextoBase.GetDadosFake<Cliente>(),
                                             endereco => endereco.Id,
@@ -44,6 +46,7 @@ namespace LojaInMemoryDatabase.Test
             fakeCliente.Id = 0;
 
             //Assert
+            var clieneservices = new ClienteService(context);
             Assert.Throws<ArgumentException>(() => _clienteService.Salvar(fakeCliente));
         }
 

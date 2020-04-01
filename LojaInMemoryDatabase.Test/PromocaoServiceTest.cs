@@ -30,13 +30,17 @@ namespace LojaInMemoryDatabase.Test
         [Fact]
         public void Devera_Add_Nova_Promocao()
         {
-            var promocao = _contextoBase.GetDadosFake<Promocao>().FirstOrDefault();
+            var baseContext = new CotextoBase("AddPromocao");
+            var context = new LojaContexto(baseContext.Options);
+
+            var promocao = baseContext.GetDadosFake<Promocao>().FirstOrDefault();
             promocao.Id = 0;
 
-            promocao.IncluiProduto(_contextoBase.GetDadosFake<Produto>().FirstOrDefault());
+            promocao.IncluiProduto(baseContext.GetDadosFake<Produto>().FirstOrDefault());
 
             //metodo de teste
-            var promocaoAtual = _promocaoService.Salvar(promocao);
+            var promoservices = new PromocoesService(context);
+            var promocaoAtual = promoservices.Salvar(promocao);
 
             //Assert
             Assert.NotEqual(0, promocaoAtual.Id);

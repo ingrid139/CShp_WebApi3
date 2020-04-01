@@ -65,6 +65,8 @@ namespace LojaDadosFake.Test
                                            .FirstOrDefault();
 
             fakeCompra.Id = 0;
+            fakeCompra.ClienteId = 14;
+            fakeCompra.ProdutoId = 4;
 
 
             //metodo de teste

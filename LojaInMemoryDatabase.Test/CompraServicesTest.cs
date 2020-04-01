@@ -33,6 +33,9 @@ namespace LojaInMemoryDatabase.Test
         [Fact]
         public void Devera_Add_Nova_Compra()
         {
+            var baseContext = new CotextoBase("AddCompra");
+            var context = new LojaContexto(baseContext.Options);
+
             var fakeCompra = _contextoBase.GetDadosFake<Compra>()
                                            .Where(x => x.Id == 4)
                                            .Join(_contextoBase.GetDadosFake<Compra>(),
@@ -50,7 +53,8 @@ namespace LojaInMemoryDatabase.Test
 
 
             //metodo de teste
-            var atual = _comprasService.Salvar(fakeCompra);
+            var compraservice = new CompraService(context);
+            var atual = compraservice.Salvar(fakeCompra);
 
             //Assert
             Assert.NotEqual(0, fakeCompra.Id);
