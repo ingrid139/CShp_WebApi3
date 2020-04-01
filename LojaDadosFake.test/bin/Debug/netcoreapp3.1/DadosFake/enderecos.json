@@ -1,0 +1,34 @@
+[
+  {
+    "Id": 1,
+    "Numero": 100,
+    "Logradouro": "Rua primeira",
+    "Complemento": "Primeiro complemento",
+    "Bairro": "Primeiro bairro",
+    "Cidade": "Primeira Cidade"
+  },
+  {
+    "Id": 2,
+    "Numero": 200,
+    "Logradouro": "Rua segundo",
+    "Complemento": "segundo complemento",
+    "Bairro": "segundo bairro",
+    "Cidade": "segundo Cidade"
+  },
+  {
+    "Id": 3,
+    "Numero": 300,
+    "Logradouro": "Rua terceiro",
+    "Complemento": "terceiro complemento",
+    "Bairro": "terceiro bairro",
+    "Cidade": "terceiro Cidade"
+  },
+  {
+    "Id": 4,
+    "Numero": 400,
+    "Logradouro": "Rua quarto",
+    "Complemento": "quarto complemento",
+    "Bairro": "quarto bairro",
+    "Cidade": "quarto Cidade"
+  }
+]

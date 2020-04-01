@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 1,
+    "Nome": "Aline",
+    "EnderecoId": 1
+  },
+  {
+    "Id": 2,
+    "Nome": "Margot",
+    "EnderecoId": 2
+  },
+  {
+    "Id": 3,
+    "Nome": "Amanda",
+    "EnderecoId": 3
+  },
+  {
+    "Id": 4,
+    "Nome": "Raquel",
+    "EnderecoId": 4
+  }
+]

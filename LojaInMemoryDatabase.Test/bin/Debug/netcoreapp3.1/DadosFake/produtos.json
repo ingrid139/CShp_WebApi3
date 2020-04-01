@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "Nome": "Notebook",
+    "Categoria": "Computadores",
+    "PrecoUnitario": 1800
+  },
+  {
+    "Id": 2,
+    "Nome": "Teclado",
+    "Categoria": "Acessorios",
+    "PrecoUnitario": 150
+  },
+  {
+    "Id": 3,
+    "Nome": "Monitor",
+    "Categoria": "Acessorios",
+    "PrecoUnitario": 1600
+  },
+  {
+    "Id": 4,
+    "Nome": "Suporte notebook",
+    "Categoria": "Acessorios",
+    "PrecoUnitario": 70
+  }
+]

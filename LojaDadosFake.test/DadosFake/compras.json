@@ -1,0 +1,30 @@
+[
+  {
+    "Id": 1,
+    "Preco": 1800,
+    "Quantidade": 1,
+    "ClienteId": 1,
+    "ProdutoId": 1
+  },
+  {
+    "Id": 2,
+    "Preco": 150,
+    "Quantidade": 1,
+    "ClienteId": 2,
+    "ProdutoId": 2
+  },
+  {
+    "Id": 3,
+    "Preco": 1600,
+    "Quantidade": 1,
+    "ClienteId": 3,
+    "ProdutoId": 3
+  },
+  {
+    "Id": 4,
+    "Preco": 70,
+    "Quantidade": 1,
+    "ClienteId": 4,
+    "ProdutoId": 4
+  }
+]

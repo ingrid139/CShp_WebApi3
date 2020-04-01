@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "Descricao": "Pascoa",
+    "DataInicio": "2020-04-01",
+    "DataTermino": "2020-04-13"
+  },
+  {
+    "Id": 2,
+    "Descricao": "Dia das mães",
+    "DataInicio": "2020-05-01",
+    "DataTermino": "2020-05-11"
+  },
+  {
+    "Id": 3,
+    "Descricao": "Dia dos namorados",
+    "DataInicio": "2020-06-01",
+    "DataTermino": "2020-06-13"
+  },
+  {
+    "Id": 4,
+    "Descricao": "Dia dos pais",
+    "DataInicio": "2020-08-01",
+    "DataTermino": "2020-08-10"
+  }
+]
