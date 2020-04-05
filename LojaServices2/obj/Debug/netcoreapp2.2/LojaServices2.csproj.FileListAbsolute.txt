@@ -16,3 +16,21 @@ C:\Users\Ingrid Costa\source\repos\Loja3\LojaServices2\bin\Debug\netcoreapp2.2\L
 C:\Users\Ingrid Costa\source\repos\Loja3\LojaServices2\obj\Debug\netcoreapp2.2\LojaServices2.dll
 C:\Users\Ingrid Costa\source\repos\Loja3\LojaServices2\obj\Debug\netcoreapp2.2\LojaServices2.pdb
 C:\Users\Ingrid Costa\source\repos\Loja3\LojaServices2\obj\Debug\netcoreapp2.2\LojaServices2.csproj.CoreCompileInputs.cache
+C:\Users\icosta\source\repos\CShp_WebApi3\LojaServices2\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\icosta\source\repos\CShp_WebApi3\LojaServices2\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\icosta\source\repos\CShp_WebApi3\LojaServices2\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\icosta\source\repos\CShp_WebApi3\LojaServices2\bin\Debug\netcoreapp2.2\LojaServices2.deps.json
+C:\Users\icosta\source\repos\CShp_WebApi3\LojaServices2\bin\Debug\netcoreapp2.2\LojaServices2.runtimeconfig.json
+C:\Users\icosta\source\repos\CShp_WebApi3\LojaServices2\bin\Debug\netcoreapp2.2\LojaServices2.runtimeconfig.dev.json
+C:\Users\icosta\source\repos\CShp_WebApi3\LojaServices2\bin\Debug\netcoreapp2.2\LojaServices2.dll
+C:\Users\icosta\source\repos\CShp_WebApi3\LojaServices2\bin\Debug\netcoreapp2.2\LojaServices2.pdb
+C:\Users\icosta\source\repos\CShp_WebApi3\LojaServices2\obj\Debug\netcoreapp2.2\LojaServices2.csprojAssemblyReference.cache
+C:\Users\icosta\source\repos\CShp_WebApi3\LojaServices2\obj\Debug\netcoreapp2.2\LojaServices2.csproj.CoreCompileInputs.cache
+C:\Users\icosta\source\repos\CShp_WebApi3\LojaServices2\obj\Debug\netcoreapp2.2\LojaServices2.RazorAssemblyInfo.cache
+C:\Users\icosta\source\repos\CShp_WebApi3\LojaServices2\obj\Debug\netcoreapp2.2\LojaServices2.RazorAssemblyInfo.cs
+C:\Users\icosta\source\repos\CShp_WebApi3\LojaServices2\obj\Debug\netcoreapp2.2\LojaServices2.AssemblyInfoInputs.cache
+C:\Users\icosta\source\repos\CShp_WebApi3\LojaServices2\obj\Debug\netcoreapp2.2\LojaServices2.AssemblyInfo.cs
+C:\Users\icosta\source\repos\CShp_WebApi3\LojaServices2\obj\Debug\netcoreapp2.2\LojaServices2.RazorTargetAssemblyInfo.cache
+C:\Users\icosta\source\repos\CShp_WebApi3\LojaServices2\obj\Debug\netcoreapp2.2\LojaServices2.dll
+C:\Users\icosta\source\repos\CShp_WebApi3\LojaServices2\obj\Debug\netcoreapp2.2\LojaServices2.pdb
+C:\Users\icosta\source\repos\CShp_WebApi3\LojaServices2\obj\Debug\netcoreapp2.2\LojaServices2.genruntimeconfig.cache

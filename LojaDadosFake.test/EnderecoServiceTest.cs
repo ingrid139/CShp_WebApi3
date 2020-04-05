@@ -66,7 +66,7 @@ namespace LojaDadosFake.Test
             //    Bairro = "Teste"
             //};
             var fakeEnd = _contextoBase.GetDadosFake<Endereco>().First();
-            fakeEnd.Id = 6;
+            fakeEnd.Id = 1;
 
             var atual = new Endereco();
 
@@ -92,7 +92,7 @@ namespace LojaDadosFake.Test
             //};
 
             var enderecoEsperado = _contextoBase.GetDadosFake<Endereco>().First();
-            enderecoEsperado.Id = 6;
+            enderecoEsperado.Id = 1;
 
             var atual = new Endereco();
 

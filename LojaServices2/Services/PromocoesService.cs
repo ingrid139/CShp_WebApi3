@@ -51,16 +51,17 @@ namespace LojaServices2.Services
         {
             //detached
             var state = _context.Entry(produto).State;
-            //var existe = _context.Promocoes.Find(produto.Id);
 
-            // ignorar change tracker
-            var existe = _context.Promocoes.AsNoTracking().Where(x => x.Id == produto.Id);
+            // verificar se ja existe na base
+            var existe = _context.Promocoes.Find(produto.Id);
 
             if (existe == null)
-                _context.Add(produto);
+                _context.Promocoes.Add(produto);
             else
-                _context.Update(produto);
-
+            {
+                existe.DataInicio = produto.DataInicio;
+                existe.DataTermino = produto.DataTermino;
+            }
             //persistir os dados
             _context.SaveChanges();
 

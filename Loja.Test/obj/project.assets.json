@@ -7670,23 +7670,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ingrid Costa\\.nuget\\packages\\": {},
+    "C:\\Users\\icosta\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ingrid Costa\\source\\repos\\Loja3\\Loja.Test\\Loja.Test.csproj",
+      "projectUniqueName": "C:\\Users\\icosta\\source\\repos\\CShp_WebApi3\\Loja.Test\\Loja.Test.csproj",
       "projectName": "Loja.Test",
-      "projectPath": "C:\\Users\\Ingrid Costa\\source\\repos\\Loja3\\Loja.Test\\Loja.Test.csproj",
-      "packagesPath": "C:\\Users\\Ingrid Costa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ingrid Costa\\source\\repos\\Loja3\\Loja.Test\\obj\\",
+      "projectPath": "C:\\Users\\icosta\\source\\repos\\CShp_WebApi3\\Loja.Test\\Loja.Test.csproj",
+      "packagesPath": "C:\\Users\\icosta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\icosta\\source\\repos\\CShp_WebApi3\\Loja.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ingrid Costa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\icosta\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7699,8 +7699,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Ingrid Costa\\source\\repos\\Loja3\\LojaServices2\\LojaServices2.csproj": {
-              "projectPath": "C:\\Users\\Ingrid Costa\\source\\repos\\Loja3\\LojaServices2\\LojaServices2.csproj"
+            "C:\\Users\\icosta\\source\\repos\\CShp_WebApi3\\LojaServices2\\LojaServices2.csproj": {
+              "projectPath": "C:\\Users\\icosta\\source\\repos\\CShp_WebApi3\\LojaServices2\\LojaServices2.csproj"
             }
           }
         }

@@ -52,14 +52,16 @@ namespace LojaInMemoryDatabase.Test
             _contextoBase.AdicionarTodosDados();
 
             var promocaoEsperada = _contextoBase.GetDadosFake<Promocao>().Last();
-            promocaoEsperada.Descricao = "Descricao Teste";
+            promocaoEsperada.DataInicio = DateTime.Parse("2020-10-01");
+            promocaoEsperada.DataTermino = DateTime.Parse("2020-10-22");
 
             //metodo de teste
             var promocaoAtual = _promocaoService.Salvar(promocaoEsperada);
 
             //Assert
             Assert.Equal(promocaoEsperada.Id, promocaoAtual.Id);
-            Assert.Equal(promocaoEsperada.Descricao, promocaoAtual.Descricao);
+            Assert.Equal(promocaoEsperada.DataInicio, promocaoAtual.DataInicio);
+            Assert.Equal(promocaoEsperada.DataTermino, promocaoAtual.DataTermino);
         }
 
 
